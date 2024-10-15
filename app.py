@@ -1,0 +1,22 @@
+# Solicitando as informações do usuário
+nome = input("Digite seu nome: ")
+cpf = input("Digite seu CPF: ")
+telefone = input("Digite seu telefone: ")
+email = input("Digite seu e-mail: ")
+endereco = input("Digite seu endereço: ")
+genero = input("Digite seu gênero: ")
+escolaridade = input("Digite sua escolaridade: ")
+signo = input("Digite seu signo: ")
+tipo_sanguineo = input("Digite seu tipo sanguíneo: ")
+
+# Exibindo as informações
+print("\nInformações do usuário:")
+print(f"Nome: {nome}")
+print(f"CPF: {cpf}")
+print(f"Telefone: {telefone}")
+print(f"E-mail: {email}")
+print(f"Endereço: {endereco}")
+print(f"Gênero: {genero}")
+print(f"Escolaridade: {escolaridade}")
+print(f"Signo: {signo}")
+print(f"Tipo Sanguíneo: {tipo_sanguineo}")
